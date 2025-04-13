@@ -1,0 +1,9 @@
+[model]
+k = 32
+arch_type = "tabm"
+
+[model.backbone]
+type = "MLP"
+n_blocks = 3
+d_block = 512
+dropout = 0.1
